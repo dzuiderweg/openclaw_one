@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { FileText, Network, PlugZap, NotebookPen } from "lucide-react";
+import { FileText, Network } from "lucide-react";
 
 const demos = [
   {
@@ -17,22 +17,6 @@ const demos = [
     icon: Network,
     color: "bg-purple-50 text-purple-600",
     borderColor: "hover:border-purple-300",
-  },
-  {
-    id: "openclaw",
-    title: "OpenClaw Hook",
-    description: "Where to initialize and reuse the OpenClaw client",
-    icon: PlugZap,
-    color: "bg-emerald-50 text-emerald-600",
-    borderColor: "hover:border-emerald-300",
-  },
-  {
-    id: "dev-process",
-    title: "Dev Process Hub",
-    description: "Principles, checklists, and a change-request form",
-    icon: NotebookPen,
-    color: "bg-amber-50 text-amber-700",
-    borderColor: "hover:border-amber-300",
   },
 ];
 
