@@ -4,16 +4,16 @@ import { FileText, Network } from "lucide-react";
 const demos = [
   {
     id: "form-ocr",
-    title: "Form OCR",
-    description: "Using LLMs to recognize handwritten forms",
+    title: "Handwritten Form OCR",
+    description: "Extract structured data from handwritten forms using LLM-powered recognition.",
     icon: FileText,
     color: "bg-blue-50 text-blue-600",
     borderColor: "hover:border-blue-300",
   },
   {
     id: "design-reasoning-chain",
-    title: "Design Reasoning Chain",
-    description: "Multiple LLM versions performing different roles to reach better conclusions",
+    title: "Multi-Agent Reasoning",
+    description: "Watch multiple LLMs collaborate to analyze problems and reach better conclusions.",
     icon: Network,
     color: "bg-purple-50 text-purple-600",
     borderColor: "hover:border-purple-300",
