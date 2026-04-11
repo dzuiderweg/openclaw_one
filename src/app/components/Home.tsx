@@ -4,7 +4,7 @@ import { FileText, Network } from "lucide-react";
 const demos = [
   {
     id: "form-ocr",
-    title: "Handwritten Form OCR",
+    title: "Handwritten Form Recognition & Data Extraction",
     description: "Extract structured data from handwritten forms using LLM-powered recognition.",
     icon: FileText,
     color: "bg-blue-50 text-blue-600",
