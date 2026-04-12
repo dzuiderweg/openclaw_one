@@ -17,6 +17,16 @@ export default defineConfig({
     },
   },
 
+  server: {
+    proxy: {
+      '/api/ollama': {
+        target: 'http://localhost:11434',
+        rewrite: (path) => path.replace(/^\/api\/ollama/, ''),
+        changeOrigin: true,
+      },
+    },
+  },
+
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
 })
